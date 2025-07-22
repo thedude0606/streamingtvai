@@ -1,0 +1,17 @@
+{
+  "name": "streamingtvai-root",
+  "version": "1.0.0",
+  "description": "Root package for Streaming TV AI application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"./backend/venv/bin/python ./backend/src/main.py\" \"cd frontend && pnpm run dev\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
+
+
